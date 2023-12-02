@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Slot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/table-style.css">
+</head>
+<center>
+<body>
+    <h2>Parking Status</h2>
+    <table class="customTable">
+   	<thead>
+    	<th scope="row">Slot Number</th>
+    	<th scope="row">Availability</th>
+   	</thead>
+   	<tbody>
+		<tr th:each="slot : ${parkList}">
+      		<td th:text="${slot.slotno}"></td>
+      		<td th:text="${slot.available}"></td>
+     	</tr>
+   	</tbody>
+  	</table>
+</body>
+</center>
+</html>

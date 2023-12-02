@@ -1,0 +1,22 @@
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Arduino Read</title>
+	</head>
+	<body>
+		<h2>Arduino Reading</h2>
+		<table class="customTable">
+	<thead>
+		<tr>
+			<td>Readings Obtained</td>
+		</tr>
+	</thead>		
+   	<tbody>
+		<tr th:each="slot : ${ardop}">
+      		<td th:text="${slot}"></td>
+     	</tr>
+   	</tbody>
+  	</table>
+  	<input th:placeholder="${change}">
+	</body>
+		
+</html>

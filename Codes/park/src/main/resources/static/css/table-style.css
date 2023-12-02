@@ -1,0 +1,31 @@
+table.customTable {
+  width: 60%;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #1C2B69;
+  border-style: solid;
+  color: #000000;
+}
+
+table.customTable td, table.customTable th {
+  border-width: 2px;
+  border-color: #1C2B69;
+  border-style: solid;
+  padding: 5px;
+  text-align: center;
+}
+
+table.customTable thead {
+  background-color: #34F8D1;
+}
+
+.red-class {
+    background-color: red;
+    color: white;
+}
+
+.green-class {
+    background-color: green;
+    color: black;
+}

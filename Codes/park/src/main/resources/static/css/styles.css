@@ -1,0 +1,24 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    margin-top: 5%;
+}
+
+#slot{
+    background-color: rgb(107, 237, 194);
+    width: 30%;
+    margin-top: 5%;
+    border-radius: 5%;
+}
+
+#heading{
+    padding-top: 30%;
+    
+}
+
+#parkNum{
+    margin-top: 15%;
+    padding-bottom: 35%;
+}
