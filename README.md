@@ -1,5 +1,12 @@
 # smart-parking-using-induction-loop-detector
 
+<h2>Team</h2>
+Varsha Sharma - 20BAI1190
+Hetal Atwal - 20BAI1105
+Agrim Sharma - 20BAI1168
+Sriganesh Raj - 20BAI1181
+Samarpan Das - 20BCE1410
+
 <h2>Abstract</h2>
 Parking management in the urban areas has become a rising concern for many. Improper management of the space allotted for vehicle parking has always led to reduced availability of parking lots of vehicles. In addition to this, huge parking spaces such as multi-storeyed parking facilities may face difficulty in keeping track of the available parking slots. To combat the challenging issue at hand, this project aims to propose an innovative way to utilize the technology of the Internet of Things (IoT) and build a smart system that can track parking space occupancy and minimize the search time of parking lots for drivers and improve the overall parking experience. We propose an induction loop vehicle detector system that consists of an induction loop made out of copper enameled wires, a resistor, a capacitor, a diode, and an LED. In addition to this, we have used a database to keep a record of the parking slots and their availability. A front end is designed for the user to view the currently available parking slot. The admin can view all the parking slots and their current status (i.e. available or occupied).
 <br>
